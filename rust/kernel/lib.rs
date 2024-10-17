@@ -72,6 +72,9 @@ pub mod pages;
 pub mod power;
 pub mod revocable;
 pub mod security;
+/// WARN: THIS IS MY KERNEL SPI BIND TO C IT IS PROBABLY VERY BAD.
+pub mod spidev;
+/// WARN: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 pub mod task;
 pub mod workqueue;
 

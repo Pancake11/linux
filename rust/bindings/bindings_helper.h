@@ -28,6 +28,7 @@
 #include <linux/netfilter_ipv6.h>
 #include <linux/of_platform.h>
 #include <linux/platform_device.h>
+#include <linux/regmap.h>
 #include <linux/poll.h>
 #include <linux/random.h>
 #include <linux/refcount.h>
@@ -36,6 +37,7 @@
 #include <linux/sysctl.h>
 #include <linux/uaccess.h>
 #include <linux/uio.h>
+#include <linux/spi/spi.h>
 
 /* `bindgen` gets confused at certain things. */
 const gfp_t BINDINGS_GFP_KERNEL = GFP_KERNEL;
